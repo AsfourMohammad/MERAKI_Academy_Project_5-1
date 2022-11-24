@@ -50,11 +50,11 @@ const Register = () => {
     <>
       <Navbar_b_token />
       <div className="Form">
-        <p className="Title">Create Account</p>
+        <p className="p">Create Account</p>
         <p>Please register below account detail</p>
         <form>
           <br />
-          <label>first Name</label>
+          {/* <label>first Name</label> */}
           <br></br>
           <input
             className="input_register"
@@ -63,7 +63,7 @@ const Register = () => {
             onChange={(e) => setFirstName(e.target.value)}
           />
           <br />
-          <label>last Name</label>
+          {/* <label>last Name</label> */}
           <br></br>
           <input
             className="input_register"
@@ -72,7 +72,7 @@ const Register = () => {
             onChange={(e) => setLastName(e.target.value)}
           />
           <br />
-          <label>your Location</label>
+          {/* <label>your Location</label> */}
           <br></br>
 
           <select className="id1" name="city">
@@ -91,7 +91,7 @@ const Register = () => {
             <option value="Altafila">Altafila</option>
           </select>
           <br />
-          <label>mobile</label>
+          {/* <label>mobile</label> */}
           <br></br>
           <input
             className="input_register"
@@ -99,7 +99,7 @@ const Register = () => {
             onChange={(e) => setMobile(e.target.value)}
           />
           <br />
-          <label>email</label>
+          {/* <label>email</label> */}
           <br></br>
           <input
             className="input_register"
@@ -108,7 +108,7 @@ const Register = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
           <br />
-          <label>password</label>
+          {/* <label>password</label> */}
           <br></br>
           <input
             className="input_register"
@@ -132,9 +132,9 @@ const Register = () => {
       ></img>
       <div className="image_login3">
       <h1>Why use Dokaneh website?</h1>
-      <p>Dokaneh allows us to shop online with ease, with the availability of all household and personal supplies, and the availability of all payment methods with home delivery service.</p>
-      <p>There is something about the saree that makes a woman look dignified, glorifying and every bit stylish. Mikshaa was set up in the year 2017 with a motive to offer its designer collection at competitive price and merchantable quality to its whole seller and worldwide online customer.</p>
-      <img className="image_last" src="https://oyelabs.com/wp-content/uploads/2020/06/Best-Grocery-Delivery-Apps-1.jpg"></img>
+      <p  className="p1">Dokaneh allows us to shop online with ease, with the availability of all household and personal supplies, and the availability of all payment methods with home delivery service.</p>
+      <p  className="p1">There is something about the saree that makes a woman look dignified, glorifying and every bit stylish. Mikshaa was set up in the year 2017 with a motive to offer its designer collection at competitive price and merchantable quality to its whole seller and worldwide online customer.</p>
+      {/* <img className="image_last" src="https://oyelabs.com/wp-content/uploads/2020/06/Best-Grocery-Delivery-Apps-1.jpg"></img> */}
       </div>
       
     </>

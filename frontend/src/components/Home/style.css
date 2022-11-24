@@ -7,12 +7,13 @@ display: inline-flex;
   padding-top: 50px;
   width: 1050px;
   display: grid;
-  grid-template-columns: 22rem 22rem 22rem 22rem ;
+  grid-template-columns: 30rem 30rem 30rem 30rem ;
 }
 .product_image{
   width: 200px;
   height: 220px;
   transition: .5s ease;
+  border-radius: 12px;
 
 }
 .product_image:hover{
@@ -34,7 +35,8 @@ filter: brightness(100%)
 }
 .categorys{
   display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+}
 
 .product{
   display: grid;
@@ -61,18 +63,19 @@ grid-template-rows: 1fr 1fr 2fr;
 
 .filterbar{
   margin-top: 50px;
-
+border-radius: 12px;
   background-color:orange ;
   width: 250px;
 }
 .category{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
 }
 .category:hover{
   cursor: pointer;
   color: orange;
+  text-shadow:1px 1px 1px #030303;
 }
 
 .category1{
@@ -86,9 +89,11 @@ grid-template-rows: 1fr 1fr 2fr;
   margin-top: 20px;
   font-size: 20px;
   border-radius: 5px;
+  border: none;
 }
 .but_cart_view:hover{
   cursor: pointer;
+  box-shadow: 5px  5px 5px #030303;
 
 }
 .active1{
@@ -110,6 +115,7 @@ color: red;
   grid-template-columns: repeat(2,100px);
   column-gap: 10px;
   margin-bottom: 20px;
+  
 }
 .input_range{
   margin-right: 15px;

@@ -29,8 +29,9 @@
 }
 
 .p_name_des{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+    text-shadow: 2px 2px 8px orange;
     /* text-align: center; */
 }
 .productInfoMain img{
@@ -64,17 +65,25 @@
     .main_left1{
         display: grid;
         justify-content: center;
-        grid-template-columns:repeat(1,200px) ;
-        row-gap: 20px;
+        grid-template-columns:repeat(1,180px) ;
+        row-gap: 24px;
         font-size: 20px;
         font-weight: bold;
         /* border-bottom: 2px solid; */
         box-shadow: 5px 1px 10px 5px  rgb(248, 194, 85);
-    
+    border-radius: 12px;
     }
     .p_icons_left{
         text-align: center;
-        height: 20px;
+        height: 24px;
+
         position: relative;
         right: 20px;
     }
+    .buttom_info{
+        border: none;
+        border-radius: 12px;
+       }
+       .buttom_info:hover{
+        box-shadow: 5px 5px 5px #000;
+       }

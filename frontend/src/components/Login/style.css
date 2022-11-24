@@ -128,4 +128,24 @@
     
     }
   }
+.singIn{
+    border: none;
+    border-radius: 12px;
 
+}
+.singIn:hover{
+   box-shadow: 5px 5px 5px #000;
+
+}
+.input{
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 12px;
+}
+.input:hover{
+    box-shadow: 5px 5px 5px orange;
+  
+}
+.p{
+    margin-top: -14px;
+    font-size: 50px;
+}

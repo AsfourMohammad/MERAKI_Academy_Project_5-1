@@ -84,14 +84,14 @@ console.log( 'onFailure response:',err);
         <Navbar_b_token/>
         
         <div className="login_main">
-            <p>Login</p>
+            <p className="p">Login</p>
             <p>Please login below account detail</p>
             <label>Email</label>
-            <input placeholder="Email" onChange={(e)=>{
+            <input className="input" placeholder="Email" onChange={(e)=>{
                 setEmail(e.target.value)
             }}></input>
             <label>Password</label>
-            <input placeholder="password" type={"password"} onChange={(e)=>{
+            <input className="input" placeholder="password" type={"password"} onChange={(e)=>{
                 setPassword(e.target.value)
             }}></input>
            <GoogleLogin onClick={()=>{navigate('/home')}}
@@ -105,7 +105,7 @@ console.log( 'onFailure response:',err);
   />
             {status&&<p className="message_response">{message}</p>}
 
-            <button  onClick={login}>Sign in</button>
+            <button className="singIn" onClick={login}>Sign in</button>
             
         </div>
         <img className="image_login" src="https://img.freepik.com/premium-vector/online-registration-sign-up-with-man-sitting-near-smartphone_268404-95.jpg?w=2000"></img>

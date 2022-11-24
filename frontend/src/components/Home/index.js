@@ -136,7 +136,7 @@ const [hide,setHide]=useState(true)
               ;
             }}
           ></input>
-          <p className="input_max_min1">{"$ "+min}</p>
+          <p className="input_max_min1">{"JD "+min}</p>
           <p className="p_price">to</p>
 
           <input
@@ -154,7 +154,7 @@ const [hide,setHide]=useState(true)
               ;
             }}
           ></input>
-          <p className="input_max_min1">{"$ "+max}</p>
+          <p className="input_max_min1">{"JD "+max}</p>
         </div>
         <div className="products">
           {products?.map((product, index) => (
@@ -171,7 +171,7 @@ const [hide,setHide]=useState(true)
               </div>
               <div className="product_details">
                 <div className="details_component">{product.name}</div>
-                <div className="details_component">{"$" + product.price}</div>
+                <div className="details_component">{"JD " + product.price}.00</div>
                 <div className="div_but">
                   <button className="but_cart_view" onClick={(e)=>{
                    if(e.target.className =="but_cart_view"){

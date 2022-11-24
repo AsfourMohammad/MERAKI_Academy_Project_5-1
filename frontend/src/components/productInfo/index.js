@@ -71,7 +71,7 @@ return(
     <p className="p_name_des">{"category Item : "+info.category}</p>
     <p className="p_name_des">{"Name Item :  "+info.name}</p>
     <p className="p_name_des">{info.description}</p>
-    <p className="p_name_des">{"Price "+"$"+info.price}</p>
+    <p className="p_name_des">{"Price "+"JD "+info.price}.00</p>
     <div className="but_part1">
       <button className="buttom_info" onClick={()=>{
         Navigate("/home")

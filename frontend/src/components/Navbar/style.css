@@ -27,6 +27,9 @@
 }
 .Link:hover{
   cursor: pointer;
+  color: orange;
+  text-shadow:1px 1px 1px #030303;
+
 }
 .logout:hover{
   cursor: pointer;
@@ -66,7 +69,10 @@ margin-left: 20px;
 }
 .search_Button:hover{
   cursor: pointer;
-
+  box-shadow: 5px  5px 5px #030303;
+  background-color: orange;
+color: #000;
+border:none;
 }
 .topnav a.active {
   background-color: #04AA6D;
